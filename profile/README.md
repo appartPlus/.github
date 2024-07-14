@@ -38,23 +38,23 @@ Appart+ est une application de gestion immobilière, offrant des fonctionnalité
 
 1. Clonez le dépôt du frontend:
     ```sh
-    git clone https://github.com/organisation/appartPlus-frontend.git
+    git clone https://github.com/appartPlus/appartplus-frontend.git
     ```
 
 2. Clonez le dépôt du backend:
     ```sh
-    git clone https://github.com/organisation/appartPlus-backend.git
+    git clone https://github.com/organisation/appartplus-backend.git
     ```
 
 3. Installez les dépendances pour le frontend:
     ```sh
-    cd appartPlus-frontend
+    cd appartplus-frontend
     npm install
     ```
 
 4. Installez les dépendances pour le backend:
     ```sh
-    cd ../appartPlus-backend
+    cd ../appartplus-backend
     composer install
     ```
 
@@ -67,13 +67,13 @@ Appart+ est une application de gestion immobilière, offrant des fonctionnalité
 
     - Frontend:
         ```sh
-        cd ../appartPlus-frontend
+        cd ../appartplus-frontend
         npm run dev
         ```
 
     - Backend:
         ```sh
-        cd ../appartPlus-backend
+        cd ../appartplus-backend
         php artisan serve
         ```
 
